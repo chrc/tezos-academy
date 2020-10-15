@@ -10,5 +10,8 @@ import fungible_token from '!raw-loader!./fungible_token.ligo'
 /* eslint import/no-webpack-loader-syntax: off */
 // @ts-ignore
 import solution from '!raw-loader!./solution.ligo'
+/* eslint import/no-webpack-loader-syntax: off */
+// @ts-ignore
+import fa2_interface from '!raw-loader!./tzip-12/fa2_interface.ligo'
 
-export const data = { course, exercise, solution, supports: {fungible_token} }
+export const data = { course, exercise, solution, supports: {fungible_token, fa2_interface} }

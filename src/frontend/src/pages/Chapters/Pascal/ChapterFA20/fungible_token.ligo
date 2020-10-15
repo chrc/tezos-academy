@@ -1,5 +1,7 @@
-#include "tzip-12/fa2_interface.ligo"
+// SPDX-FileCopyrightText: 2020 tqtezos
+// SPDX-License-Identifier: MIT
 
+#include "tzip-12/fa2_interface.ligo"
 
 (*
  * Storage
@@ -45,7 +47,7 @@ type safelist_assert_receivers_param is list(address)
 
 type set_safelist_param is option(address)
 
-#include "fungible_token_impl.ligo"
+#include "exercise.ligo"
 
 type custom_entry_points is 
 | Mint of mint_params

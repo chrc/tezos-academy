@@ -9,9 +9,9 @@ import course from '!raw-loader!./course.md'
 import exercise from '!raw-loader!./exercise.mligo'
 /* eslint import/no-webpack-loader-syntax: off */
 // @ts-ignore
-import fungible_token from '!raw-loader!./fungible_token.mligo'
+import fa2_interface from '!raw-loader!./tzip-12/fa2_interface.mligo'
 /* eslint import/no-webpack-loader-syntax: off */
 // @ts-ignore
 import solution from '!raw-loader!./solution.mligo'
 
-export const data = { course, exercise, solution, supports: {fungible_token, caller} }
+export const data = { course, exercise, solution, supports: {fa2_interface, caller} }

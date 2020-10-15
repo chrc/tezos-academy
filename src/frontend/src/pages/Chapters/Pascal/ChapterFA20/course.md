@@ -174,23 +174,23 @@ When error occurs, any FA2 contract entry point MUST fail with one of the follow
 
 ### Standard error mnemonics:
 
-<!-- prettier-ignore -->"*TOKEN\_UNDEFINED*" - One of the specified *token\_ids* is not defined within the FA2 contract
+<!-- prettier-ignore -->*TOKEN\_UNDEFINED* - One of the specified *token\_ids* is not defined within the FA2 contract
 
-<!-- prettier-ignore -->"*INSUFFICIENT\_BALANCE*" - A token owner does not have sufficient balance to transfer tokens from owner's account
+<!-- prettier-ignore -->*INSUFFICIENT\_BALANCE* - A token owner does not have sufficient balance to transfer tokens from owner's account
 
-<!-- prettier-ignore -->"*TX\_DENIED*" - A transfer failed because of *operator\_transfer\_policy* == *No\_transfer*
+<!-- prettier-ignore -->*TX\_DENIED* - A transfer failed because of *operator\_transfer\_policy* == *No\_transfer*
 
-<!-- prettier-ignore -->"*NOT\_OWNER*" - A transfer failed because *operator\_transfer\_policy* == *Owner\_transfer* and it is initiated not by the token owner
+<!-- prettier-ignore -->*NOT\_OWNER* - A transfer failed because *operator\_transfer\_policy* == *Owner\_transfer* and it is initiated not by the token owner
 
-<!-- prettier-ignore -->"*NOT\_OPERATOR*" - A transfer failed because *operator\_transfer\_policy* == *Owner\_or\_operator\_transfer* and it is initiated neither by the token owner nor a permitted operator
+<!-- prettier-ignore -->*NOT\_OPERATOR* - A transfer failed because *operator\_transfer\_policy* == *Owner\_or\_operator\_transfer* and it is initiated neither by the token owner nor a permitted operator
 
-<!-- prettier-ignore -->"*RECEIVER\_HOOK\_FAILED*" - The receiver hook failed. This error MUST be raised by the hook implementation
+<!-- prettier-ignore -->*RECEIVER\_HOOK\_FAILED* - The receiver hook failed. This error MUST be raised by the hook implementation
 
-<!-- prettier-ignore -->"*SENDER\_HOOK\_FAILED*" - The sender failed. This error MUST be raised by the hook implementation
+<!-- prettier-ignore -->*SENDER\_HOOK\_FAILED* - The sender failed. This error MUST be raised by the hook implementation
 
-<!-- prettier-ignore -->"*RECEIVER\_HOOK\_UNDEFINED*" -Receiver hook is required by the permission behavior, but is not implemented by a receiver contract
+<!-- prettier-ignore -->*RECEIVER\_HOOK\_UNDEFINED* -Receiver hook is required by the permission behavior, but is not implemented by a receiver contract
 
-<!-- prettier-ignore -->"*SENDER\_HOOK\_UNDEFINED*" - Sender hook is required by the permission behavior, but is not implemented by a sender contract
+<!-- prettier-ignore -->*SENDER\_HOOK\_UNDEFINED* - Sender hook is required by the permission behavior, but is not implemented by a sender contract
 
 ## Your mission
 
